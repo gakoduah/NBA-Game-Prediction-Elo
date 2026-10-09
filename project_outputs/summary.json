@@ -1,0 +1,36 @@
+{
+  "n_games_total": 63157,
+  "season_range": "1947-2015",
+  "tuned_params": {
+    "K": 20,
+    "home_court_adv": 100,
+    "season_revert": 0.25
+  },
+  "validation_window": [
+    1980,
+    2009
+  ],
+  "test_window": [
+    2010,
+    2015
+  ],
+  "n_test_games": 7641,
+  "elo_from_scratch": {
+    "accuracy": 0.6717707106399686,
+    "brier": 0.20808510923778,
+    "log_loss": 0.602882907363221
+  },
+  "baseline_always_home": {
+    "accuracy": 0.5948174322732627
+  },
+  "baseline_base_rate": {
+    "accuracy": 0.5948174322732627,
+    "brier": 0.2417924600595176,
+    "log_loss": 0.6767089060628627
+  },
+  "fivethirtyeight_benchmark": {
+    "accuracy": 0.6726868210967151,
+    "brier": 0.20605330632953556,
+    "log_loss": 0.5981302163726343
+  }
+}
